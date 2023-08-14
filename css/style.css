@@ -454,7 +454,7 @@ ul li a i {
 @media (max-width: 768px) {
   .home .home-content .img-content,
   .home .home-content .text-content{
-    display:non;
+    display:none;
     width: 95%;
     margin-left:0px ;
     margin-right:0px;
