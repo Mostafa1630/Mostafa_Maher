@@ -454,11 +454,13 @@ ul li a i {
 @media (max-width: 768px) {
   .home .home-content .img-content,
   .home .home-content .text-content{
+    display:non;
     width: 95%;
     margin-left:0px ;
     margin-right:0px;
   }
   .home .home-content .img-content .img-body{
+    
     width: 90%;
     margin-left:0px ;
     margin-right:0px;
