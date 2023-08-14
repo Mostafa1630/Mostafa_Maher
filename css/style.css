@@ -322,9 +322,6 @@ ul li a i {
   body {
     padding-left: 0px;
   }
-  /* section{
-    margin: 0px auto;
-  } */
   .sidbar {
     width: 300px;
     left: -100%;
@@ -418,10 +415,10 @@ ul li a i {
 }
 .home .home-content .img-content{
   width: 47%;
-  padding: 30px 40px;
+  padding: 30px 0px;
 }
 .home .home-content .img-content .img-body {
-  width: 400px;
+  width: 70%;
   height: 75vh;
   position: relative;
 }
@@ -453,39 +450,26 @@ ul li a i {
   border-right: 5px solid var(--main-color);
 }
 
-@media (max-width: 1270px){
-  .home .home-content .img-content .img-body{
-    width: 300px;
-  }
-}
-@media (min-width:991px) and ( max-width: 1070px){
-  .home .home-content .img-content,
-  .home .home-content .text-content{
-    width: 96%;
-  }
-  .home .home-content .img-content .img-body{
-    width: 400px;
-  }
-}
+
 @media (max-width: 768px) {
-  .home .home-content{
-    justify-content: center;
-  }
   .home .home-content .img-content,
   .home .home-content .text-content{
     width: 95%;
+    margin-left:0px ;
+    margin-right:0px;
   }
-  .home .home-content .img-content .img-body {
-    width: 270px;
-    height: 480px;
+  .home .home-content .img-content .img-body{
+    width: 90%;
+    margin-left:0px ;
+    margin-right:0px;
   }
-  .home .home-content .img-content .img-body img{
-    max-width:100%; 
+  .home .home-content .img-content .img-body::after{
+    left: -7px;
+    top: -7px; 
   }
-}
-@media (max-width: 400px) {
-  section{
-    padding-left: 35px;
+  .home .home-content .img-content .img-body::before{
+    right: -7px;
+    bottom: -7px;
   }
 }
 /* End Home Section  CSS*/
