@@ -325,6 +325,7 @@ ul li a i {
   .sidbar {
     width: 300px;
     left: -100%;
+    height: 100%;
   }
   .sidbar.active {
     left: 0px;
