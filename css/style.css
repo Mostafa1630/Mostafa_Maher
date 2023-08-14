@@ -96,11 +96,7 @@ section {
   height: 3px;
   background-color: var(--main-color);
 }
-@media (max-width: 444px) {
-  .main-container{
-    margin-right: -20px !important;
-  }
-}
+
 
 /* Start Style Settings CSS */
 .style-switcher{
@@ -345,7 +341,11 @@ ul li a i {
 
 
 
-
+@media (max-width: 444px) {
+  .main-container{
+    margin-right: -20px !important;
+  }
+}
 /* Start Home Section  CSS*/
 .home .home-content{
   min-height: 100vh;
