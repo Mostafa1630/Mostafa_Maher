@@ -96,7 +96,12 @@ section {
   height: 3px;
   background-color: var(--main-color);
 }
-
+@media (max-width: 444px) {
+  .main-container{
+    margin-left: 20px !important;
+    margin-right: auto !important;
+  }
+}
 
 /* Start Style Settings CSS */
 .style-switcher{
