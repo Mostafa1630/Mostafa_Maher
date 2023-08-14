@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mostafa Maher</title>
+    <!-- style css -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- Style files Colors -->
+    <link rel="stylesheet" href="css/color-1.css" class="alternate-style" title="color-1" disabled>
+    <link rel="stylesheet" href="css/color-2.css" class="alternate-style" title="color-2" disabled>
+    <link rel="stylesheet" href="css/color-3.css" class="alternate-style" title="color-3" disabled>
+    <link rel="stylesheet" href="css/color-4.css" class="alternate-style" title="color-4" disabled>
+    <link rel="stylesheet" href="css/color-5.css" class="alternate-style" title="color-5" disabled>
+  </head>
+  <body >
+    <!-- Satrt Main Container -->
+    <div class="main-container">
+      <!-- Start Settings  -->
+        <div class="style-switcher">
+          <div class="style-switcher-toggle s-icon">
+            <i class="fas fa-cog fa-spin"></i>
+          </div>
+          <div class="day-night s-icon">
+            <i class="fas fa-moon lad"></i>
+          </div>
+          <h4>Theme Colors</h4>
+          <div class="colors">
+            <span class="color-1" onclick="setActiveStyle('color-1')"></span>
+            <span class="color-2" onclick="setActiveStyle('color-2')"></span>
+            <span class="color-3" onclick="setActiveStyle('color-3')"></span>
+            <span class="color-4" onclick="setActiveStyle('color-4')"></span>
+            <span class="color-5" onclick="setActiveStyle('color-5')"></span>
+          </div>
+        </div>
+        <!-- End Settings  -->
+      <span class="fas fa-bars open-sidbar"></span>
+      <!-- Start Aside -->
+      <div class="sidbar">
+        <span class="fas fa-times close-sidbar"></span>
+        <div class="logo">
+          <a href="#"><span>M</span>ostafa</a>
+        </div>
+        <ul>
+          <li>
+            <a href="#home"  data-section="home"
+              ><i class="fa-solid fa-home-alt fa-fw"></i><span>Home</span></a
+            >
+          </li>
+          <li>
+            <a href="#about" data-section="about"
+              ><i class="fas fa-user"></i><span>About</span></a
+            >
+          </li>
+          <li>
+            <a href="#services" data-section="services"
+              ><i class="fa-solid fa-list fa-fw"></i><span>Services</span></a
+            >
+          </li>
+          <li>
+            <a href="#skills" data-section="skills"
+              ><i class="fas fa-chalkboard-user fa-fw"></i><span>Skills</span></a
+            >
+          </li>
+          <li>
+            <a href="#portfolio" data-section="portfolio"
+              ><i class="fa-solid fa-briefcase fa-fw"></i
+              ><span>Portfolio</span></a
+            >
+          </li>
+          <li>
+            <a href="#contact" data-section="contact"
+              ><i class="fas fa-comments fa-fw"></i><span>Contact me</span></a
+            >
+          </li>
+        </ul>
+      </div>
+      <!-- End Aside -->
+      <!-- Start Main Content -->
+      <div class="main-content">
+        
+        <!-- Start Home Section -->
+        <section class="home" id="home">
+          <div class="home-content">
+            <div class="text-content">
+              <h2>Hello, My Name is <span>Mostafa Maher.</span></h2>
+              <h3>I'am a <span>Frontend Developer.</span></h3>
+              <p>
+                This Is My Official Portfolio Website To Showcase My All Works
+                Related To Web Development And Programming.
+              </p>
+              <div class="social">
+                <a href="https://www.facebook.com/profile.php?id=100056520471991" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.linkedin.com/in/mostafa-maher-a71695240" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://twitter.com/Mostafa92802323" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://github.com/Mostafa1630" target="_blank"><i class="fa-brands fa-github"></i></a>
+              </div>
+              <a href="#about" class="btn">More About Me</a>
+            </div>
+            <div class="img-content">
+              <div class="img-body">
+                <img src="images/mostafa.jpg" alt="Mostafa Maher">
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Start Home Section -->
+
+        <!-- Start About Me Section -->
+        <section class="about" id="about">
+          <div class="about-content">
+            <h3 class="heading">about me</h3>
+            <div class="content-text">
+              <h3>I'am Mostafa Maher and <span>Frontend Developer.</span></h3>
+              <p>This Is My Official Portfolio Website To Showcase My All Works Related To Web Development And Programming , Proficient in HTML, CSS , sass , typeScript and JavaScript; plus modern libraries and frameworks like React js.</p>
+            </div>
+            <div class="information">
+              <div class="info-box">
+                <span class="que">Birthday : </span>
+                <span class="ans">16 Mar 2003</span>
+              </div>
+              <div class="info-box">
+                <span class="que">Age : </span>
+                <span class="ans age"></span>
+              </div>
+              <div class="info-box">
+                <span class="que">Email : </span>
+                <span class="ans">mstfyabwsdyt@gmail.com</span>
+              </div>
+              <div class="info-box">
+                <span class="que">Degree : </span>
+                <span class="ans">Computer Science</span>
+              </div>
+              <div class="info-box">
+                <span class="que">Phone : </span>
+                <span class="ans">+201015949752</span>
+              </div>
+              <div class="info-box">
+                <span class="que">City : </span>
+                <span class="ans">Al Buhayrah, Egypt.</span>
+              </div>
+              <div class="info-box">
+                <span class="que">Freelance : </span>
+                <span class="ans">Availabel</span>
+              </div>
+            </div>
+            <div class="description">
+              <a href="#" class="btn">download cv</a>
+              <a href="#services" class="btn">hire me</a>
+            </div>
+          </div>
+        </section>
+        <!-- End About Me Section -->
+        <!-- Start Services Section -->
+        <section class="services" id="services">
+
+            <h3 class="heading">services</h3>
+
+            <div class="services-content">
+              <div class="serv-item">
+                <i class="fas fa-laptop-code"></i>
+                <h3>Frontend Developer</h3>
+                <span>
+                  I Implements Web Designs Through Coding Languages Like HTML, CSS , typescript , 
+                  Sass , Tailwind And JavaScript, And Also Use Libraries And React js Framework.
+                </span>
+              </div>
+              <div class="serv-item">
+                <i class="fas fa-palette"></i>
+                <h3>Web Design</h3>
+                <span>
+                  Planning, Conceptualizing, And Arranging Content Online. Designing
+                  Website Include The Website’s Overall Functionality, Web Apps And
+                  User Interface Design
+                </span>
+              </div>
+              <div class="serv-item">
+                <i class="fas fa-code"></i>
+                <h3>Clean Code</h3>
+                <span>
+                  I'm writing clean, organized code Through Coding Languages Like Html
+                  typescript , Css And JavaScript, And Also Use Libraries And Frameworks.
+                </span>
+              </div>
+              <div class="serv-item">
+                <i class="fas fa-mobile-alt"></i>
+                <h3>Responsive Design</h3>
+                <span>
+                  The Combination Of Flexible Grids, Flexible Images, And Media
+                  Queries. I Help Take The Complexity Out Of Responsive Design With
+                  Details On Design.
+                </span>
+              </div>
+              <div class="serv-item">
+                <i class="fas fa-search"></i>
+                <h3>CSS Templates</h3>
+                <span>
+                  We provide a wide range of HTML5 templates for free. Please spread a
+                  word about us on social media.Lorem ipsum dolor sit amet consectetur
+                  adipisicing elit.
+                </span>
+              </div>
+              <div class="serv-item">
+                <i class="fas fa-bullhorn"></i>
+                <h3>UI & UX Design</h3>
+                <span>
+                  Credits go to Pixabay and Unsplash for images used in this free CSS
+                  website template. Lorem ipsum dolor sit amet consectetur adipisicing
+                  elit. Quasi, incidunt.
+                </span>
+              </div>
+            </div>
+
+        </section>
+        <!-- End Services Section -->
+        <section class="skills" id="skills">
+          <h3 class="heading">my skills</h3>
+
+          <div class="skills-content">
+            <div class="box-skill">
+              <h4>HTML</h4>
+              <p class="prog"><span data-progress="90%"></span></p>
+            </div>
+            <div class="box-skill">
+              <h4>CSS</h4>
+              <p class="prog"><span data-progress="90%" ></span></p>
+            </div>
+            <div class="box-skill">
+              <h4>SASS</h4>
+              <p class="prog"><span data-progress="85%"></span></p>
+            </div>
+            <div class="box-skill">
+              <h4>BootStrap</h4>
+              <p class="prog"><span data-progress="95%"></span></p>
+            </div>
+            <div class="box-skill">
+              <h4>Tailwind</h4>
+              <p class="prog"><span data-progress="95%"></span></p>
+            </div>
+            <div class="box-skill">
+              <h4>JavaScript</h4>
+              <p class="prog"><span data-progress="80%"></span></p>
+            </div>
+            <div class="box-skill">
+              <h4>typeScript</h4>
+              <p class="prog"><span data-progress="80%"></span></p>
+            </div>
+            <div class="box-skill">
+              <h4>React Js</h4>
+              <p class="prog"><span data-progress="85%"></span></p>
+            </div>
+            <div class="box-skill">
+              <h4>Git/GitHub</h4>
+              <p class="prog"><span data-progress="87%"></span></p>
+            </div>
+          </div>
+
+        </section>
+        <!-- Start Section Portfilo -->
+        <section class="portfolio" id="portfolio">
+          <h3 class="heading">portfolio</h3>
+          <h4>My Last Projects:</h4>
+          
+          <ul class="list-portfolio">
+            <li data-name="all" class="active">All</li>
+            <li data-name="design">Design</li>
+            <li data-name="javascript">JavaScript&TypeScript</li>
+            <li data-name="react">React Js&Next Js</li>
+          </ul>
+          <div class="projects-content">
+            <!-- TO Fill Boxs Using JavaScript -->
+            <div class="box all active design">
+              <div class="image">
+                <img src="images/sushi.jpg" alt="" />
+              </div>
+              <div class="text-content">
+                <h2>sushi</h2>
+                <div class="info">
+                  <a href="https://github.com/Mostafa1630/Sushi-Restaurant-Website" target="_blank"><i class="fa-brands fa-github"></i> <span>Git repo</span></a>
+                  <a href="https://mostafa1630.github.io/Sushi-Restaurant-Website/" target="_blank"><i class="fas fa-satellite-dish"></i> <span>Live</span></a>
+                </div>
+              </div>
+            </div>
+            
+            <div class="box all active design">
+              <div class="image">
+                <img src="images/hootel.jpg" alt="" />
+              </div>
+              <div class="text-content">
+                <h2>Hotel Booking</h2>
+                <div class="info">
+                  <a href="https://github.com/Mostafa1630/Hotel-Booking-Website" target="_blank"><i class="fa-brands fa-github"></i> <span>Git repo</span></a>
+                  <a href="https://mostafa1630.github.io/Hotel-Booking-Website/" target="_blank"><i class="fas fa-satellite-dish"></i> <span>Live</span></a>
+                </div>
+              </div>
+            </div>
+            
+            <div class="box all active javascript">
+              <div class="image">
+                <img src="images/music.jpg" alt="" />
+              </div>
+              <div class="text-content">
+                <h2>music player</h2>
+                <div class="info">
+                  <a href="https://github.com/Mostafa1630/Music-Player" target="_blank"><i class="fa-brands fa-github"></i> <span>Git repo</span></a>
+                  <a href="https://mostafa1630.github.io/Music-Player/" target="_blank"><i class="fas fa-satellite-dish"></i> <span>Live</span></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="box all active design">
+              <div class="image">
+                <img src="images/courses.jpg" alt="" />
+              </div>
+              <div class="text-content">
+                <h2>e-learning online</h2>
+                <div class="info">
+                  <a href="https://github.com/Mostafa1630/Responsive-Online-Education-Website" target="_blank"><i class="fa-brands fa-github"></i> <span>Git repo</span></a>
+                  <a href="https://mostafa1630.github.io/Responsive-Online-Education-Website/" target="_blank"><i class="fas fa-satellite-dish"></i> <span>Live</span></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="box all active javascript">
+              <div class="image">
+                <img src="images/download.jpg" alt="" />
+              </div>
+              <div class="text-content">
+                <h2>Download Files</h2>
+                <div class="info">
+                  <a href="https://github.com/Mostafa1630/Download-Any-File" target="_blank"><i class="fa-brands fa-github"></i> <span>Git repo</span></a>
+                  <a href="https://mostafa1630.github.io/Download-Any-File/" target="_blank"><i class="fas fa-satellite-dish"></i> <span>Live</span></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="box all active design">
+              <div class="image">
+                <img src="images/classes.jpg" alt="" />
+              </div>
+              <div class="text-content">
+                <h2>Glasses E-Commerce</h2>
+                <div class="info">
+                  <a href="https://github.com/Mostafa1630/Multipage-Glasses-E-Commerce-Website" target="_blank"><i class="fa-brands fa-github"></i> <span>Git repo</span></a>
+                  <a href="https://mostafa1630.github.io/Multipage-Glasses-E-Commerce-Website/" target="_blank"><i class="fas fa-satellite-dish"></i> <span>Live</span></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="box all active design">
+              <div class="image">
+                <img src="images/creative.jpg" alt="" />
+              </div>
+              <div class="text-content">
+                <h2>Special Design creative</h2>
+                <div class="info">
+                  <a href="https://github.com/Mostafa1630/Special-Design-Using-Javascript" target="_blank"><i class="fa-brands fa-github"></i> <span>Git repo</span></a>
+                  <a href="https://mostafa1630.github.io/Special-Design-Using-Javascript/" target="_blank"><i class="fas fa-satellite-dish"></i> <span>Live</span></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="box all active design">
+              <div class="image">
+                <img src="images/webmostafa.jpg" alt="" />
+              </div>
+              <div class="text-content">
+                <h2>template Css</h2>
+                <div class="info">
+                  <a href="https://github.com/Mostafa1630/Html-And-Css-Template-4" target="_blank"><i class="fa-brands fa-github"></i> <span>Git repo</span></a>
+                  <a href="https://mostafa1630.github.io/Html-And-Css-Template-4/" target="_blank"><i class="fas fa-satellite-dish"></i> <span>Live</span></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="box all active design">
+              <div class="image">
+                <img src="images/Furniture.jpg" alt="" />
+              </div>
+              <div class="text-content">
+                <h2>Modern Furniture</h2>
+                <div class="info">
+                  <a href="https://github.com/Mostafa1630/Responsive-Furniture-Website" target="_blank"><i class="fa-brands fa-github"></i> <span>Git repo</span></a>
+                  <a href="https://mostafa1630.github.io/Responsive-Furniture-Website/" target="_blank"><i class="fas fa-satellite-dish"></i> <span>Live</span></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="box all active javascript">
+              <div class="image">
+                <img src="images/imageApp.jpg" alt="" />
+              </div>
+              <div class="text-content">
+                <h2>Image editor</h2>
+                <div class="info">
+                  <a href="https://github.com/Mostafa1630/Build-An-Image-Editor-in-JavaScript" target="_blank"><i class="fa-brands fa-github"></i> <span>Git repo</span></a>
+                  <a href="https://mostafa1630.github.io/Build-An-Image-Editor-in-JavaScript/" target="_blank"><i class="fas fa-satellite-dish"></i> <span>Live</span></a>
+                </div>
+              </div>
+            </div>
+
+            
+            <div class="box all active javascript">
+              <div class="image">
+                <img src="images/paint.jpg" alt="" />
+              </div>
+              <div class="text-content">
+                <h2>Paint app</h2>
+                <div class="info">
+                  <a href="https://github.com/Mostafa1630/Build-A-Drawing-Paint-App" target="_blank"><i class="fa-brands fa-github"></i> <span>Git repo</span></a>
+                  <a href="https://mostafa1630.github.io/Build-A-Drawing-Paint-App/" target="_blank"><i class="fas fa-satellite-dish"></i> <span>Live</span></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="box all active design">
+              <div class="image">
+                <img src="images/groge.jpg" alt="" />
+              </div>
+              <div class="text-content">
+                <h2>Groco</h2>
+                <div class="info">
+                  <a href="https://github.com/Mostafa1630/Grocery-Store-Website" target="_blank"><i class="fa-brands fa-github"></i> <span>Git repo</span></a>
+                  <a href="https://mostafa1630.github.io/Grocery-Store-Website/" target="_blank"><i class="fas fa-satellite-dish"></i> <span>Live</span></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="box all active design">
+              <div class="image">
+                <img src="images/travel.jpg" alt="" />
+              </div>
+              <div class="text-content">
+                <h2>Travel Agency</h2>
+                <div class="info">
+                  <a href="https://github.com/Mostafa1630/Travel-Agency-" target="_blank"><i class="fa-brands fa-github"></i> <span>Git repo</span></a>
+                  <a href="https://mostafa1630.github.io/Travel-Agency-/" target="_blank"><i class="fas fa-satellite-dish"></i> <span>Live</span></a>
+                </div>
+              </div>
+            </div>
+
+            
+            <div class="box all active react">
+              <div class="image">
+                <img src="images/ecommerceReact.jpg" alt="" />
+              </div>
+              <div class="text-content">
+                <h2>e commerce</h2>
+                <div class="info">
+                  <a href="https://github.com/Mostafa1630/ReactJs-Ecommerce-Website" target="_blank"><i class="fa-brands fa-github"></i> <span>Git repo</span></a>
+                  <a href="https://e-commercetemplate.surge.sh/" target="_blank"><i class="fas fa-satellite-dish"></i> <span>Live</span></a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </section>
+        <!-- End Section Portfilo -->
+        <section class="contact" id="contact">
+          <h3 class="heading">Contact Me</h3>
+          <div class="connection">
+            <div class="head-content">
+              <h3>Have You Any Questions ?</h3>
+              <p>I'am At Your Servies.</p>
+            </div>
+            <div class="info-contact">
+              <div class="inf-box">
+                <i class="fas fa-phone"></i>
+                <h4>Call Us on</h4>
+                <a href="tel:+201015949752">+201015949752</a>
+              </div>
+              <div class="inf-box">
+                <i class="fas fa-envelope"></i>
+                <h4>Email</h4>
+                <a href="mailto:mstfyabwsdyt@gmail.com">mstfyabwsdyt@gmail.com</a>
+              </div>
+              <div class="inf-box">
+                <i class="fas fa-map-marker-alt"></i>
+                <h4>Address</h4>
+                <span>Al Buhayrah, Egypt.</span>
+              </div>
+            </div>
+          </div>
+          <div class="message-content">
+              <div class="head-content">
+                <h3>Send Me Message An Email</h3>
+                <p>I'am Very Responsive To Messages.</p>
+              </div>
+              <form action="" class="form-contact">
+                <div class="flex">
+                  <div class="semi-in">
+                    <input type="text" name="name" placeholder="name" />
+                  </div>
+                  <div class="semi-in">
+                    <input type="email" name="email" placeholder="email" />
+                  </div>
+                </div>
+                <input type="text" name="subject" placeholder="subject" />
+                <textarea name="message" placeholder="Message"></textarea>
+                <button class="btn">send message</button>
+              </form>
+          </div>
+        </section>
+        <section></section>
+        <!-- Start Section Contact Us -->
+
+        <!-- End Section Contact Us -->
+      </div>
+      <span class="fas fa-arrow-up btn btn-up" id="btn-up"></span>
+      <!-- End Main Content -->
+    </div>
+    <!-- End Main Container -->
+
+    <!-- JavaScript Files -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
