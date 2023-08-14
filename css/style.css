@@ -342,7 +342,7 @@ ul li a i {
 
 
 @media (max-width: 444px) {
-  .main-container{
+  .main-container .main-content section{
     margin-right: -20px !important;
   }
 }
